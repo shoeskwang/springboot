@@ -19,7 +19,6 @@ public class JspTestController {
 		
 		ModelAndView mav = new ModelAndView("test");
 		
-		mav.addObject("count", memberMapper.memberCount());
 		return mav;
 	}
 }
