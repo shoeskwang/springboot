@@ -14,6 +14,8 @@ public class BoardController {
 	@Resource(name="com.example.demo.board.service.BoardService")
 	BoardService boardService;
 	
+	//test
+	
 	@RequestMapping("/list")
 	public ModelAndView boardList() throws Exception{
 		ModelAndView mav = new ModelAndView("list");
