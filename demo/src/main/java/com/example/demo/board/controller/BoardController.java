@@ -15,7 +15,6 @@ public class BoardController {
 	BoardService boardService;
 	
 	//test
-	//test22
 	
 	@RequestMapping("/list")
 	public ModelAndView boardList() throws Exception{
