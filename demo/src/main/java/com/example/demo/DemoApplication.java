@@ -18,7 +18,7 @@ public class DemoApplication {
 	}
 	
 	 /*
-     * SqlSessionFactory ì„¤ì • 
+     * SqlSessionFactory ÇÑ±Û
      */
     @Bean
     public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception{
